@@ -1,6 +1,7 @@
 # Suspiciuous_Extension_Finder
- 
-##DESCRIPTION
+This script can be used to do a quick search for files that should receive additional review against a list of provided extensions. 
+
+## DESCRIPTION
 Certain file types in the environment should receive addional review to help ensure security. This script will take a specified path and scan folders/subfolders and compare the file extension of each file found against a list of extensions. If the item is found the full path to the file will be displayed. 
 The complete list will also be written to a txt file in the directory where the script is run, titled SusExtensionSearcher-Results-yyyy-MM-dd.HH.mm.txt. 
 The script will also create a runlog file that contains a summary of who ran the script and when, how many files were found, how long the scan took etc. 
